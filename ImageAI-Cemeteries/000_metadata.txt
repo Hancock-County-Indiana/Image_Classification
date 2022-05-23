@@ -1,0 +1,17 @@
+~~~~~~~~~~~~LAST UPDATED 05/13/2022 (MAY 13)~~~~~~~~~~~~~
+
+FILES
++FirstCustomDetection.py
++FirstCustomTraining.py
++gdalProject.py
+
+DESCRIPTIONS
+
+FILES
++firstCustomDetection.py - creates images with boxes around the object of interest and the points
+			   for the corners of the boxes
++firstCustomTraining.py - trains the imageAI model with labeled images and outputs a trained model
++gdalProject.py - this code takes the image and point output from firstCustomDetection to project
+                  it to the same coordinate system as the file given to firstCustomDetection
+
+
